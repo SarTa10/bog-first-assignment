@@ -1,0 +1,144 @@
+@media all and (max-width:960px){
+    .container{
+        width:100%;
+    }
+    .navigation{
+        display: none;
+    }
+   .header{
+    border-top:none;
+   }
+   .header{
+       grid-template-columns: 1fr 1fr 1fr;
+
+   }
+
+   .icon-links{
+       grid-column:2/3;
+       grid-row:1/2;
+   }
+   .logo{
+    grid-column:2/3;
+    grid-row:2/3;
+   }
+   .search-bar{
+       grid-column:2/3;
+       grid-row:3/4;
+   }
+
+  
+   .slider__right{
+       display:none;
+   }
+
+   .slider__nav{
+       left:150px;
+       top:350px;
+   }
+
+   .info-item{
+       margin-top:10px;
+   }
+}
+
+
+
+@media all and (max-width:361px)
+{
+   .info-items{
+       flex-direction:column;
+   } 
+
+   .copyright-items{
+       padding:15px;
+   }
+   .footer-elements--submit{
+       margin-bottom:10px;
+   }
+   .work-space--title{
+       display: none;
+   }
+
+   .info-item--paragraph{
+       display:none;
+   }
+
+   .info-item--picture{
+       width:100%;
+   }
+
+   .links-tittle{
+       padding-top:15px;
+   }
+
+   .info-items{
+       margin-left:0px;
+   }
+   
+   .work-items{
+       margin-left:0px;
+   }
+   .slider-wrapper{
+       align-items:stretch;
+       justify-content: normal;
+   }
+   .monitor__background{
+       width:300px;
+   }
+
+   .monitor__screen{
+       width:248px;
+       left:20px;
+   }
+   .slider__nav{
+       left:110px;
+   }
+   .search-bar-details{
+      width:167px;
+   }
+
+   .header{
+       margin-left:0px;
+   }
+
+   .footer-elements{
+        justify-content: center;
+   }
+   .footer-element{
+       margin-bottom:10px;
+   }
+}
+
+@media all and (max-width:721px) and (min-width:320px){
+    .monitor__background{
+        margin-left:160px;
+    }
+    .monitor__screen{
+        left:185px;
+    }
+    .slider__nav{
+        left:315px;
+    }
+    .info-items{
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    } 
+
+    .footer-element{
+        width:300px;
+    }
+
+    .icon-links{
+        margin-left:35px;
+    }
+    .logo{
+        margin-left:45px;
+    }
+    .footer-elements{
+        justify-content: center;
+   }
+   .footer-element{
+    margin-bottom:10px;
+}
+}
